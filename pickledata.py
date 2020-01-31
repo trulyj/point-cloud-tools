@@ -30,7 +30,6 @@ read = open(os.path.join(META_PATH, "paths.txt"), "r") #paths.txt contains paths
 dataArray = []
 labelArray = []
 index = 0
-class_frq = np.zeros(11)
 for line in read:  #for each directory indicated by paths.txt
     directory = line.rstrip()
     file_dat = np.empty((0,3))
