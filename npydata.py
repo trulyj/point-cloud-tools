@@ -1,5 +1,5 @@
 #Converts unlabeled point cloud scans scans into .npy files for use with PointNet. Uses as input point cloud scans in .txt form.
-#The locations of these files are indicated by robo_paths.txt, which contains the paths to the directories where the files are stored.
+#The locations of these files are indicated by paths.txt, which contains the paths to the directories where the files are stored.
 #Outputs one .npy file for each input .txt file.
 
 #All lines regarding labels are commented out since the data being converted was unlabeled, but can be uncommented and
